@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5681C309-94A3-45FD-B532-F5170812172C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FinalProject</RootNamespace>
+    <AssemblyName>FinalProject</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminChildForms\cFormAnalysis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminChildForms\cFormAnalysis.Designer.cs">
+      <DependentUpon>cFormAnalysis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminChildForms\cFormDevInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminChildForms\cFormDevInfo.Designer.cs">
+      <DependentUpon>cFormDevInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminChildForms\cFormProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminChildForms\cFormProducts.Designer.cs">
+      <DependentUpon>cFormProducts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminChildForms\cFormSales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminChildForms\cFormSales.Designer.cs">
+      <DependentUpon>cFormSales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminChildForms\cFormSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminChildForms\cFormSettings.Designer.cs">
+      <DependentUpon>cFormSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminChildForms\cFormUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminChildForms\cFormUsers.Designer.cs">
+      <DependentUpon>cFormUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMainUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMainUser.Designer.cs">
+      <DependentUpon>FormMainUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMainAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMainAdmin.Designer.cs">
+      <DependentUpon>FormMainAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserChildForms\cFormUserAnalysis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserChildForms\cFormUserAnalysis.Designer.cs">
+      <DependentUpon>cFormUserAnalysis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserChildForms\cFormUserDevInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserChildForms\cFormUserDevInfo.Designer.cs">
+      <DependentUpon>cFormUserDevInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserChildForms\cFormUserSales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserChildForms\cFormUserSales.Designer.cs">
+      <DependentUpon>cFormUserSales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserChildForms\cFormUserSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserChildForms\cFormUserSettings.Designer.cs">
+      <DependentUpon>cFormUserSettings.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminChildForms\cFormAnalysis.resx">
+      <DependentUpon>cFormAnalysis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminChildForms\cFormDevInfo.resx">
+      <DependentUpon>cFormDevInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminChildForms\cFormProducts.resx">
+      <DependentUpon>cFormProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminChildForms\cFormSales.resx">
+      <DependentUpon>cFormSales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminChildForms\cFormSettings.resx">
+      <DependentUpon>cFormSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminChildForms\cFormUsers.resx">
+      <DependentUpon>cFormUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMainAdmin.resx">
+      <DependentUpon>FormMainAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMainUser.resx">
+      <DependentUpon>FormMainUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserChildForms\cFormUserAnalysis.resx">
+      <DependentUpon>cFormUserAnalysis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserChildForms\cFormUserDevInfo.resx">
+      <DependentUpon>cFormUserDevInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserChildForms\cFormUserSales.resx">
+      <DependentUpon>cFormUserSales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserChildForms\cFormUserSettings.resx">
+      <DependentUpon>cFormUserSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="..\.editorconfig">
+      <Link>.editorconfig</Link>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SaleBLL\SaleBLL.csproj">
+      <Project>{b3a4e13c-0168-4b2f-9d0a-977da28f2701}</Project>
+      <Name>SaleBLL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maximize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\analysis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\analysisColor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\homeColor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\infoColor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\product.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\productColor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sales.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salesColor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settingsColor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usersColor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\developer-info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\developer-info1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\developer-info2.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

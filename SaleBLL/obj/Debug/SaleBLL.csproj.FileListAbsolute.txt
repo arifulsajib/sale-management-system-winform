@@ -1,0 +1,9 @@
+C:\Users\SAJIB\Documents\VIsualStudioProjects\Exercises\FinalProject\SaleBLL\bin\Debug\SaleBLL.dll
+C:\Users\SAJIB\Documents\VIsualStudioProjects\Exercises\FinalProject\SaleBLL\bin\Debug\SaleBLL.pdb
+C:\Users\SAJIB\Documents\VIsualStudioProjects\Exercises\FinalProject\SaleBLL\bin\Debug\SaleDAL.dll
+C:\Users\SAJIB\Documents\VIsualStudioProjects\Exercises\FinalProject\SaleBLL\bin\Debug\SaleDAL.pdb
+C:\Users\SAJIB\Documents\VIsualStudioProjects\Exercises\FinalProject\SaleBLL\obj\Debug\SaleBLL.csprojAssemblyReference.cache
+C:\Users\SAJIB\Documents\VIsualStudioProjects\Exercises\FinalProject\SaleBLL\obj\Debug\SaleBLL.csproj.CopyComplete
+C:\Users\SAJIB\Documents\VIsualStudioProjects\Exercises\FinalProject\SaleBLL\obj\Debug\SaleBLL.dll
+C:\Users\SAJIB\Documents\VIsualStudioProjects\Exercises\FinalProject\SaleBLL\obj\Debug\SaleBLL.pdb
+C:\Users\SAJIB\Documents\VIsualStudioProjects\Exercises\FinalProject\SaleBLL\obj\Debug\SaleBLL.csproj.CoreCompileInputs.cache

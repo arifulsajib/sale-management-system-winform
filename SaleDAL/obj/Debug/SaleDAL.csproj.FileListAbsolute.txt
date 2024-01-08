@@ -1,0 +1,6 @@
+C:\Users\SAJIB\Documents\VIsualStudioProjects\Exercises\FinalProject\SaleDAL\bin\Debug\SaleDAL.dll
+C:\Users\SAJIB\Documents\VIsualStudioProjects\Exercises\FinalProject\SaleDAL\bin\Debug\SaleDAL.pdb
+C:\Users\SAJIB\Documents\VIsualStudioProjects\Exercises\FinalProject\SaleDAL\obj\Debug\SaleDAL.csprojAssemblyReference.cache
+C:\Users\SAJIB\Documents\VIsualStudioProjects\Exercises\FinalProject\SaleDAL\obj\Debug\SaleDAL.dll
+C:\Users\SAJIB\Documents\VIsualStudioProjects\Exercises\FinalProject\SaleDAL\obj\Debug\SaleDAL.pdb
+C:\Users\SAJIB\Documents\VIsualStudioProjects\Exercises\FinalProject\SaleDAL\obj\Debug\SaleDAL.csproj.CoreCompileInputs.cache
